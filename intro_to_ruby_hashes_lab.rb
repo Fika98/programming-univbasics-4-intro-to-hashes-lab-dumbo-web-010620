@@ -19,7 +19,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  hash_name = key => value
+  hash_name = {key => value}
   
 end
 my_hash_creator(:name, "Fika")
