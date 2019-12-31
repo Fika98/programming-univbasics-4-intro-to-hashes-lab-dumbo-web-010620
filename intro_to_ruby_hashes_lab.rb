@@ -30,7 +30,7 @@ def read_from_hash(hash, key)
   hash = {key => "FIKA"}
   
 end
-read_from_hash(hash_name, :name)
+read_from_hash(hashname, :name)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
