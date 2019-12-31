@@ -38,5 +38,5 @@ def update_counting_hash(hash, key)
   hash[key]
 end
 h = {a: 4, b:12}
-h[]
+h[a:] = 
 update_counting_hash(h, :a)
