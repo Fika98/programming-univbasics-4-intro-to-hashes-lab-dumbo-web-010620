@@ -29,7 +29,7 @@ def read_from_hash(hash, key)
   hash[key]
 end
 h = {a: 4, b: 12
-read_from_hash(h, :a)
+read_from_hash(h, :c)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
