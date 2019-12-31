@@ -26,7 +26,7 @@ my_hash_creator(:name, "Fika")
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and 
-  
+  hash[key]
   
   
 end
